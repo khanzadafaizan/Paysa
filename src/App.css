@@ -1,38 +1,1385 @@
-.App {
-  text-align: center;
+/* Sign in section left start */
+/* .main{
+background-color: #000;
+} */
+.Link {
+  text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Logo-div-main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 10px;
+}
+.Logo-div {
+  background-color: #0052ff;
+}
+.p-logo {
+  padding-left: 30%;
+  padding-top: 20%;
+}
+.logo-heading {
+  text-decoration: none;
+  color: var(--000000-primary, #000);
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.247px;
+}
+
+.heading-sign {
+  color: var(--000000-primary, #000);
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text-sigin {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+}
+.label-input {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.label-input1 {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.input-div {
+  display: flex;
+  width: 425px !important;
+  border: 2px solid #ebf0f0;
+  border-radius: 10px;
+}
+
+.input-select-div {
+  display: flex;
+  width: 425px !important;
+  border: 2px solid #ebf0f0;
+  border-radius: 10px;
+  height: 62px;
+}
+.select-text {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.input {
+  width: 390px !important;
+  height: 62px;
+  flex-shrink: 0;
+}
+.email-font {
+  margin-top: 5%;
+}
+.password-font {
+  margin-top: 5%;
+  color: var(--747-a-80, #747a80);
+}
+.remember-recover-div {
+  display: flex !important;
+  gap: 210px;
+  margin-top: 25px;
+}
+.check-box-div {
+  display: flex;
+  height: 20px;
+  gap: 10px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: var(--ebf-0-f-0-primary, #ebf0f0);
+}
+.remember {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+.agree-terms-div {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.terms {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+.agree {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+.recover {
+  text-decoration: none;
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.sing-btn {
+  padding-left: 30% !important;
+  padding-right: 30% !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+
+.create-btn {
+  padding-left: 160px !important;
+  padding-right: 160px !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+.recovery-btn {
+  margin-bottom: 150px;
+  margin-top: 25px;
+  padding-left: 163px !important;
+  padding-right: 163px !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+.hr-or {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+}
+.sing-btn-qr {
+  padding-left: 22% !important;
+  padding-right: 22% !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+
+.have-account {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.create-account {
+  text-decoration: none;
+  color: var(--0052-ff-primary, #0052ff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+/* Sign in section right end */
+/* Sign in section right start */
+.right-main {
+  background: linear-gradient(to left, #0052ff, #4cbae6) !important;
+}
+/* .right{
+  height: 124vh;
+ 
+} */
+.right-section {
+  position: relative;
+  background-color: #fff;
+  margin-left: 10%;
+  border-radius: 10px;
+  margin-top: 22%;
+  margin-left: 20%;
+}
+
+.week-high-div {
+  position: absolute;
+  right: -45px;
+  top: 65px;
+  width: 204px;
+  height: 69px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--ffffff-primary, #fff);
+  box-shadow: 0px 20px 24px 0px rgba(153, 155, 168, 0.18);
+}
+.linkCard-div {
+  position: absolute;
+  top: 192px;
+  left: -65px;
+}
+.linkCard {
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--ffffff-primary, #fff);
+  box-shadow: 0px 20px 24px 0px rgba(153, 155, 168, 0.18);
+}
+.item-div {
+  position: absolute;
+  bottom: 25px;
+  right: -135px;
+}
+.item {
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--ffffff-primary, #fff);
+  box-shadow: 0px 20px 24px 0px rgba(153, 155, 168, 0.18);
+}
+.text-latest {
+  margin-left: 100px;
+  margin-top: 60px;
+  width: 444px;
+  color: var(--ffffff-primary, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.slider {
+  margin-top: 5%;
+  margin-left: 43%;
+  width: 42px;
+  height: 6px;
+  flex-shrink: 0;
+}
+
+.text-latest-waiapi {
+  margin-top: 5%;
+  margin-left: 36%;
+  color: var(--ffffff-primary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+}
+.text-latest-p {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 38%;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5px;
+}
+/* Sign in section right end */
+
+/* Sign in section mobie start */
+
+.Logo-div-mobile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #0052ff;
+  border: #0052ff;
+  margin-top: 5%;
+  margin-left: 38%;
+}
+
+.p-logo-mobile {
+  width: 50px;
+  padding-top: 20px;
+  padding-left: 35%;
+}
+.font-chevron {
+  margin-top: 15%;
+  margin-left: 5%;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-left: 2.5%;
+  padding-top: 1%;
+}
+.heading-sign-mobile {
+  color: var(--000000-primary, #000);
+  font-family: Inter !important ;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text-sigin {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+}
+.input-div-mobile {
+  display: flex;
+  width: 350px !important;
+  border: 2px solid #ebf0f0;
+  border-radius: 10px;
+}
+.input-mobile {
+  width: 318px !important;
+  height: 62px;
+  flex-shrink: 0;
+}
+.email-font-mobile {
+  margin-top: 8%;
+}
+.remember-recover-div-mobile {
+  display: flex !important;
+  gap: 120px;
+  margin-top: 25px;
+}
+.sing-btn-mobile {
+  padding-left: 140px !important;
+  padding-right: 140px !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+  font-family: Inter;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+
+.sing-btn-qr-mobile {
+  padding-left: 26% !important;
+  padding-right: 26% !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+.line2 {
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 140px;
+  height: 14px;
+  flex-shrink: 0;
+}
+/* Sign in section mobie end */
+/* Sign up section mobie start */
+
+.input-select-div-mobile {
+  display: flex;
+  width: 350px !important;
+  border: 2px solid #ebf0f0;
+  border-radius: 10px;
+  height: 62px;
+}
+.slect-mobile {
+  width: 10% !important;
+}
+.select-text-mobile {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.create-btn-mobile {
+  padding-left: 121px !important;
+  padding-right: 121px !important;
+  padding-top: 2.5% !important;
+  padding-bottom: 2.5% !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+/* Sign up section mobie end */
+/* Forgot section start */
+.recovery-btn-mobile {
+  margin-top: 25px;
+  padding-left: 124px !important;
+  padding-right: 124px !important;
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+.key-paid {
+  width: 360px;
+  height: 302.64px;
+}
+/* Forgot section end */
+/* QrCode section start */
+.qrcode-div {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.qrcode-image {
+  padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.qrcode-div-mobile {
+  width: 340px;
+  height: 340px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.barcode-img {
+  width: 350px;
+  margin-top: 25px;
+}
+/* QrCode section end */
+/* Manage section start */
+.manage-main-div {
+  width: 500px;
+}
+.manage-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.already-account {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.text-latest-mobile {
+  margin-top: 60px;
+  width: 344px;
+  color: var(--ffffff-primary, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text-latest-waiapi-mobile {
+  margin-top: 10%;
+  margin-left: 30%;
+  color: var(--ffffff-primary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+}
+.text-latest-p-mobile {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 32%;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5px;
+}
+.manage-main-div-mobile {
+  width: 350px;
+}
+/* Manage section end */
+
+/* Dashboard start */
+.dashborad {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+}
+.bell-icon-btn {
+  height: 30px;
+}
+.search-icon-div {
+  width: 400px;
+}
+.search-icon-span {
+  background-color: #fff !important;
+}
+.search-icon {
+  color: var(--000000-primary, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Material Icons Outlined;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400;
+  line-height: normal;
+}
+.search-input {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  /* 12px / Medium */
+  font-family: Inter !important;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  border: none !important;
+  border-color: none !important;
+  border-radius: none;
+}
+
+.Logo-div-side {
+  width: 45px;
+  height: 45px;
+  background-color: #0052ff;
+}
+.p-logo-side {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.side-bar {
+  opacity: 0.9;
+  background: var(--ebf-0-f-0-primary, #ebf0f0);
+}
+.nav {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
+.inv {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 300 !important;
+}
+.dashborad-side {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.side-plus-icon {
+  font-size: 18px;
+}
+.total-balance {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.total-balance-text {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.account-open {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.income {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
+}
+.balance-icon {
+  color: rgb(0, 238, 0);
+  margin-top: 02px;
+  font-size: 14px;
+}
+.income-balance-text {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.usd {
+  color: #0052ff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+}
+/* profile start */
+.profile-img {
+  width: 350px;
+  height: 300px;
+}
+.designer {
+  color: #0052ff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 10px;
+}
+.name {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 11px;
+}
+.newyork {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11px;
+}
+.profile-button {
+  color: var(--747-a-80, #747a80) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+}
+
+.profile-button:hover {
+  opacity: 0.9 !important;
+  background: var(--ebf-0-f-0-primary, #ebf0f0) !important;
+  color: #0052ff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 700;
+}
+.profile-button-timeline {
+  color: var(--747-a-80, #747a80) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+}
+
+.profile-button-timeline:hover {
+  opacity: 0.9 !important;
+  background: lightgray !important;
+  color: #000 !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 700;
+}
+.details {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.details-info {
+  color: var(--000000-primary, #0052ff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.rank {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+}
+.star {
+  color: #0052ff;
+  font-size: 15px;
+}
+/* profile end */
+.income-assets {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
+}
+
+.card-atm {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.latest {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.latest-text {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+/* Dashboard end */
+/* Footer Start */
+.help {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.all-right {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.language {
+  color: var(--747-a-80, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+}
+.dark-mode {
+  margin-top: -8px;
+}
+/* Footer End */
+.footer-icon {
+  font-size: x-large;
+  color: var(--747-a-80, #747a80) !important;
+}
+.footer-icon:hover {
+  font-size: x-large;
+  color: var(--747-a-80, #fff) !important;
+}
+.footer-button {
+  background-color: #fff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-style: normal;
+}
+.footer-button:hover {
+  background-color: #0052ff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-style: normal;
+}
+
+/* Accounts section start */
+.accouts-btn {
+  color: var(--747-a-80, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 21px;
+}
+
+.accounts-balance-text {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+}
+.accounts-block-text {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px;
+}
+.account-active {
+  color: rgb(0, 238, 0);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 10px;
+}
+.card-atm-accounts {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+}
+
+/* Accounts section end */
+/* Card section start */
+.card-card-btn {
+  color: var(--000000-primary, #000) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 21px;
+}
+.card-card-btn-icon {
+  font-size: large;
+}
+.card-atm-h6 {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Heading / H6 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 5px;
+}
+.card-atm-text {
+  color: var(--747-a-80, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+.visa-card-div {
+  width: 340px;
+}
+.card-number {
+  color: var(--ffffff-primary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  line-height: 18px;
+}
+.card-number-text {
+  color: var(--ffffff-primary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.card-number-balance {
+  color: var(--ffffff-primary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  /* 14px / Bold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 150% */
+}
+.mastser-card-number {
+  color: var(--ffffff-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px;
+}
+.master-card-number-text {
+  color: var(--ffffff-primary, #747a80);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.master-card-number-balance {
+  color: var(--ffffff-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  /* 14px / Bold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 150% */
+}
+.latest-img {
+  width: 40px;
+}
+
+/* Card section end */
+/* .dashborad media Queries start */
+/* Profile section start */
+
+.profile-edit-input {
+  width: 350px !important;
+}
+/* Profile section end */
+
+/* transaction start */
+.transaction-heading {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 21px;
+}
+.table-th {
+}
+/* transaction end */
+/* Pricing Start */
+.pricing-card {
+  color: var(--747-a-80, #000) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 900 !important;
+}
+
+.pricing-card:hover {
+  opacity: 0.9 !important;
+  background: var(--ebf-0-f-0-primary, #ebf0f0) !important;
+  color: #0052ff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 700;
+}
+.card-pro-level {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+}
+.card-pro-heading {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 42px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+}
+.card-pro-text {
+  color: var(--000000-primary, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 900 !important;
+}
+.pricing-card-text {
+  color: var(--747-a-80, #000) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+}
+
+.pricing-card-text:hover {
+  opacity: 0.9 !important;
+  background: var(--ebf-0-f-0-primary, #ebf0f0) !important;
+  color: #0052ff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+.card-button {
+  opacity: 0.9 !important;
+  background: var(--ebf-0-f-0-primary, #0052ff) !important;
+  color: #fff !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Pricing end */
+/* Invoicing start */
+.invoicing-btn {
+  color: var(--747-a-80, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14.25px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 10px;
+}
+.invoicing-amount {
+  color: var(--747-a-80, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14.25px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+.invoicing-paid {
+  color: rgb(0, 238, 0) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter !important;
+  font-size: 14.25px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+.inv {
+  color: var(--747-a-80, #5a5e61);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
+/* Invoicing end */
+@media only screen and (max-width: 786px) {
+  .income {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
   }
-  to {
-    transform: rotate(360deg);
+  .income-balance-text {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  /* transaction start */
+  .transaction-heading {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
+  }
+  /* transaction end */
+  /* Profile section start */
+
+  .profile-edit-input {
+    width: 250px !important;
+  }
+  /* Profile section end */
+
+  .dashborad {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+  }
+  .search-icon {
+    color: var(--000000-primary, #000);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Material Icons Outlined;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .userimg {
+    width: 100%;
+  }
+  .total-balance {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .total-balance-text {
+    color: var(--747-a-80, #747a80);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .usd {
+    color: #0052ff !important;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+  }
+  .payment {
+    color: var(--747-a-80, #747a80);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+  }
+  .img-country {
+    width: 25px;
+  }
+  .card-atm {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  .total-balance-text {
+    color: var(--747-a-80, #747a80);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 21px;
+  }
+  .btn-detail {
+    color: var(--000000-primary, #000) !important;
+    opacity: 0.9;
+    background: var(--ebf-0-f-0-primary, #ebf0f0) !important;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter !important;
+    font-size: 17px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 21px;
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .accouts-btn {
+    color: var(--747-a-80, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter !important;
+    font-size: 12.25px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 10px;
+  }
+  .physical-btn {
+    color: var(--747-a-80, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter !important;
+    font-size: 14.25px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 10px;
+  }
+  .accounts-balance-text {
+    color: var(--747-a-80, #747a80);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .account-active {
+    color: rgb(0, 238, 0);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  .card-atm-accounts {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+  }
+  .accounts-block-text {
+    color: var(--747-a-80, #747a80);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+  }
+  .latest {
+    color: var(--000000-primary, #000) !important;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  .latest-text {
+    color: var(--747-a-80, #747a80);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px;
+  }
+
+  .income-assets {
+    color: var(--000000-primary, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
   }
 }
+/* .dashborad media Queries end */
