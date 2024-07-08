@@ -190,7 +190,7 @@ function Signin() {
           </div>
         </div>
         <div className="row rounded-top-3 sign-mobile-main">
-          <div className="col-12   ">
+          <div className="col-12">
             <div className=" mt-5 main">
               <h1 className="heading-sign-mobile text-center mt-5 pt-4">
                 Sign in
@@ -199,12 +199,12 @@ function Signin() {
                 Enter your account details or use QR code
               </p>
               <div>
-                <label
+                {/* <label
                   for="exampleFormControlInput1 "
                   className="form-label label-input ms-2"
-                >
+                > */}
                   Email
-                </label>
+                {/* </label> */}
                 <div className="input-div-mobile ms-2">
                   <input
                     type="email"

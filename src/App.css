@@ -374,12 +374,12 @@ background-color: #000;
 }
 .input-div-mobile {
   display: flex;
-  width: 350px !important;
+  width: 340px !important;
   border: 2px solid #ebf0f0;
   border-radius: 10px;
 }
 .input-mobile {
-  width: 318px !important;
+  width: 316px !important;
   height: 62px;
   flex-shrink: 0;
 }
@@ -392,8 +392,8 @@ background-color: #000;
   margin-top: 25px;
 }
 .sing-btn-mobile {
-  padding-left: 140px !important;
-  padding-right: 140px !important;
+  padding-left: 135px !important;
+  padding-right: 135px !important;
   padding-top: 2.5% !important;
   padding-bottom: 2.5% !important;
   font-family: Inter;
@@ -553,7 +553,7 @@ background-color: #000;
   line-height: 5px;
 }
 .manage-main-div-mobile {
-  width: 350px;
+  width: 330px;
 }
 /* Manage section end */
 
@@ -974,7 +974,7 @@ background-color: #000;
   font-weight: 500;
 }
 .visa-card-div {
-  width: 340px;
+  width: 350px;
 }
 .card-number {
   color: var(--ffffff-primary, #fff);
@@ -1055,8 +1055,7 @@ background-color: #000;
   font-weight: 900;
   line-height: 21px;
 }
-.table-th {
-}
+
 /* transaction end */
 /* Pricing Start */
 .pricing-card {
