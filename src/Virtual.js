@@ -144,7 +144,7 @@ export default function Virtual() {
         {/* Cards navbar end */}
 
         <div className="row my-4">
-        <div className="col-md-12 mx-3 d-flex flex-column gap-2">
+        <div className="col-md-12 d-flex align-items-center flex-column">
             {/* Visa card start */}
           <CardsVisa/>
             {/* Visa card end */}

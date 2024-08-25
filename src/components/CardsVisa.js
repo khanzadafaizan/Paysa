@@ -25,7 +25,7 @@ export default function CardsVisa() {
       date: "09/24",
       cardBalanceText: "Card balance",
       status: "Vaild",
-      class: "p-2 rounded-3 bg-light visa-card-div",
+      class: "p-2 rounded-3 bg-light visa-card-div my-2",
       classNumber:"mastser-card-number", 
       classBalance:"master-card-number-balance",
       classText:"master-card-number-text"
